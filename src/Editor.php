@@ -9,7 +9,7 @@ class Editor extends Textarea
     protected $view = 'laravel-admin-ckeditor::editor';
 
     protected static $js = [
-        'vendor/laravel-admin-ckeditor/build/ckeditor.js',
+        'vendor/laravel-admin-ckeditor/ckeditor.js',
     ];
 
     public function render()
