@@ -1,0 +1,34 @@
+{
+    "name": "mbhamra/laravel-admin-ckeditor",
+    "description": "Integrate CKEDITOR into laravel-admin",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension", "editor", "CKEditor"],
+    "homepage": "https://github.com/mbhamra/laravel-admin-ckeditor",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mbhamra",
+            "email": "mmsingh62@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Encore\\CKEditor\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Encore\\CKEditor\\CKEditorServiceProvider"
+            ]
+
+        }
+    }
+}
