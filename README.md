@@ -10,7 +10,7 @@ This is a `laravel-admin` extension that integrates `CKEDITOR` into the `laravel
 ## Installation
 
 ```bash
-composer require mbhamra/laravel-admin-ckeditor
+composer require xbing2002/laravel-admin-ckeditor
 ```
 
 Then

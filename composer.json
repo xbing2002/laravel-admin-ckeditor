@@ -1,14 +1,13 @@
 {
-    "name": "mbhamra/laravel-admin-ckeditor",
+    "name": "xbing2002/laravel-admin-ckeditor",
     "description": "Integrate CKEDITOR into laravel-admin",
     "type": "library",
     "keywords": ["laravel-admin", "extension", "editor", "CKEditor"],
-    "homepage": "https://github.com/mbhamra/laravel-admin-ckeditor",
+    "homepage": "https://github.com/xbing2002/laravel-admin-ckeditor",
     "license": "MIT",
     "authors": [
         {
-            "name": "mbhamra",
-            "email": "mmsingh62@gmail.com"
+            "name": "xbing2002",
         }
     ],
     "require": {
